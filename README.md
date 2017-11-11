@@ -11,6 +11,6 @@ stats_v1 : A crude attempt by just reading from the command line (very heavy on 
 
 stats_v2 : Starting from v1 and modified to read directly from files under / (light on the cpu, currently checking for bugs and missing gpu activity)
 
-stats_v3 : Not yet coded. Possibly one that tries to read these stats of an external system.
+stats_v3 : Not yet coded. Possibly one that tries to read these stats from an external system.
 
 Edit: I will add the files soon, hopefully this weekend. This is an old project I started when I had just gotten my pi0 and didn't have any other peripherals. Now I have all kind of sensors and just need to think of a good project that I can make.

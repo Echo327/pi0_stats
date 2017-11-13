@@ -17,5 +17,9 @@ EDIT(11/11/2017): I will add the files soon, hopefully this weekend. This is an 
 
 EDIT(13/11/2017): I have copied the files from my pi0 (finally managed to do it without a screen and ssh), they should be up soon. Photos coming soon.
 
+The library that I used is this one:
+https://github.com/adafruit/Adafruit_SSD1306
+I will upload a zip of the library as it was when I downloaded it to use (in case it has or gets modified).
+
 
 Side note: Other than a pi0, I have a NodeMCU, Arduino Nano, and Arduino Uno(clone), but no ongoing project at this time. And another list of various sensors that I have yet to make an inventory of. But if someone is having any kind of problem with their project and I have the necessary equipment, I am gladly willing to test and help debug or improve programs.

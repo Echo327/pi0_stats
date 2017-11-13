@@ -5,13 +5,13 @@ Display used is an OLED SSD 1306 on a Raspberry Pi Zero (Non WiFi version).
 
 As it stands, there are two working versions:
 
-(1) stats_v1 : A crude attempt by just reading from the command line (very heavy on the cpu, but fully functional)
+(1) stats_bar_v1 : A crude attempt by just reading from the command line (very heavy on the cpu, but fully functional)
 
-(2) stats_v2 : Starting from v1 and modified to read directly from files under / (light on the cpu, currently checking for bugs and missing gpu activity)
+(2) stats_bar_v2 : Starting from v1 and modified to read directly from files under / (light on the cpu, currently checking for bugs and missing gpu activity)
 
-(3) stats_v3 : Not yet coded. Possibly one that tries to read these stats from an external system.
+(3) stats_bar_v3 : Not yet coded. Possibly one that tries to read these stats from an external system.
 
-(4) stats_v4 : Not yet coded. I'm thinking line charts instead of bar charts.
+(4) stats_line_v1 : Not yet coded. I'm thinking line charts instead of bar charts.
 
 EDIT(11/11/2017): I will add the files soon, hopefully this weekend. This is an old project I started when I had just gotten my pi0 and didn't have any other peripherals. Now I have all kind of sensors and just need to think of a good project that I can make.
 

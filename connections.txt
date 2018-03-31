@@ -1,0 +1,16 @@
+Exactly where I have them connected (for now, just a suggestion, but change at your own risks)
+
+GND : 20 (Ground)
+VCC : 17 (3v3 Power)
+D0  : 23 - BCM 11 (SCLK)
+D1  : 19 - BCM 10 (MOSI)
+RES : 18 - BCM 24 [as written in code]
+DC  : 16 - BCM 23 [as written in code]
+CS  : 24 - BCM 8 (CE0) [SPI Chip Select]
+
+I use this interactive website for easy GPIO pinout guide:
+https://pinout.xyz/
+
+I am also including the official schematics file (for the brave and initiated) for the Raspberry Pi Zero v1.3 (which I am using).
+
+As far as I know, the Pi Zero v1.3 and the regular Pi have the same GPIO pinout.

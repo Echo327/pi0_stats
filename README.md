@@ -21,5 +21,15 @@ The library that I used is this one:
 https://github.com/adafruit/Adafruit_SSD1306
 I will upload a zip of the library as it was when I downloaded it to use (in case it has or gets modified).
 
+EDIT:
+Temporary - and lacking- instructions (knowledge of what you are doing is required) for Raspberry Pi (assuming OS is bare?):
+sudo apt-get update
+sudo apt-get install build-essential python-dev python-pip
+sudo pip install RPi.GPIO
+sudo apt-get install python-imaging python-smbus
 
-Side note: Other than a pi0, I have a NodeMCU, Arduino Nano, and Arduino Uno(clone), but no ongoing project at this time. And another list of various sensors that I have yet to make an inventory of. But if someone is having any kind of problem with their project and I have the necessary equipment, I am gladly willing to test and help debug or improve programs.
+cd Adafruit_Pytho n_SSD1306
+sudo python setup.py install
+
+sudo python ./stats_v2.py
+

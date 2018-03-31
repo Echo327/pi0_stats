@@ -21,8 +21,10 @@ The library that I used is this one:
 https://github.com/adafruit/Adafruit_SSD1306
 I will upload a zip of the library as it was when I downloaded it to use (in case it has or gets modified).
 
-EDIT:
+EDIT(31/03/2018):
 Temporary - and lacking- instructions (knowledge of what you are doing is required) for Raspberry Pi (assuming OS is bare?):
+
+
 sudo apt-get update
 
 

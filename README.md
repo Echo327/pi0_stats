@@ -24,12 +24,22 @@ I will upload a zip of the library as it was when I downloaded it to use (in cas
 EDIT:
 Temporary - and lacking- instructions (knowledge of what you are doing is required) for Raspberry Pi (assuming OS is bare?):
 sudo apt-get update
+
+
 sudo apt-get install build-essential python-dev python-pip
+
+
 sudo pip install RPi.GPIO
+
+
 sudo apt-get install python-imaging python-smbus
 
+
 cd Adafruit_Pytho n_SSD1306
+
+
 sudo python setup.py install
+
 
 sudo python ./stats_v2.py
 
